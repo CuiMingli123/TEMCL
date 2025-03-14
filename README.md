@@ -1,5 +1,5 @@
 # TEMCL
-# TEMCL: Prediction of Drug-disease Associations Based on Transformer and Enhanced Multi-view Contrastive Learning
+### TEMCL: Prediction of Drug-disease Associations Based on Transformer and Enhanced Multi-view Contrastive Learning
 #### Flowchart of TEMCL. In part A, TEMCL uses transformer to extract high-order features of nodes. In part B, two different types of views are constructed, i.e., homogeneous hypergraphs and heterogeneous association graphs. In part C, HGCN and HGT are used to further extract node features, and contrastive learning is employed to obtain more representative characterizations. Finally, MLP is used for DDAs.
 #### Details of Datasets
 #### In this study, three real datasets, including three types of associations, are used to assess the effectiveness of TEMCL.
