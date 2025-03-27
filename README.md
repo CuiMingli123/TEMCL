@@ -16,3 +16,23 @@
 #### Bdataset	300	5e-4	1e−5	64	3	20	20
 #### Fdataset	200	1e-3	1e−5	64	2	20	20
 #### Cdataset	200	1e-3	1e−5	64	3	20	30
+
+# Requirements:
+- python 3.9.13
+- cudatoolkit 11.3.1
+- pytorch 1.10.0
+- dgl 0.9.0
+- networkx 2.8.4
+- numpy 1.23.1
+- scikit-learn 0.24.2
+# Code:
+- data_preprocess.py: Methods of data processing
+- metric.py: Metrics calculation
+- pos_contrast.py: Get positive and negative samples for contrastive learning
+- Contrast.py: Code of graph contrastive learning
+- model1.py: Model of TEMCL
+- train_DDA1.py: Train the model
+
+# Usage:
+Execute ```python train_DDA1.py``` 
+
